@@ -211,6 +211,45 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 1.182e;
+  padding: 2em;
+  background-color: gray;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+input[type="text"],
+input=[type-"email"],
+textarea {
+  padding: 1em;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1em;
+  color: #333333;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  background-color: #d0d0d0;
+}
+
+button {
+  padding: 1em;
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #555555;
+}	
 /* ===== STATE STYLES ======= */
 
