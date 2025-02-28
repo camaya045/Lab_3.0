@@ -17,9 +17,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
  */
  
  body{
-	 font-family: Noto Serif Khojki;
+	 font-family: "Titillium Web", sans-serif;
 	 background-color: blue;
-	 padding: 30px
+	 padding: 10px
  }
 
 button,
@@ -27,7 +27,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: Noto Serif Khojki; /* 1 */
+  font-family: "Titillium Web", sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
