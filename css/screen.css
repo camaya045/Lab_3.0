@@ -18,8 +18,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
  
  body{
 	 font-family: "Titillium Web", sans-serif;
-	 background-color: blue;
+	 background-color: grey;
 	 padding: 100px
+	 margin: 0;
  }
 
 button,
@@ -27,7 +28,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: Noto Serif Khojki; /* 1 */
+  font-family: "Titillium Web", sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -216,12 +217,14 @@ form{
   flex-direction: column;
   gap: 1.182e;
   padding: 2em;
-  background-color: gray;
+  width: 400px;
+  margin: 0 auto;						   
+  background-color: #f5f5f5;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 input[type="text"],
-input=[type-"email"],
+input=[type="email"],
 textarea {
   padding: 1em;
   background-color: #e0e0e0;
