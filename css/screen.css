@@ -19,7 +19,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
  body{
 	 font-family: "Titillium Web", sans-serif;
 	 background-color: grey;
-	 padding: 100px
+	 padding: 100px;
 	 margin: 0;
  }
 
@@ -215,7 +215,6 @@ label {
 form{
   display: flex;
   flex-direction: column;
-  gap: 1.182e;
   padding: 2em;
   width: 400px;
   margin: 0 auto;						   
@@ -234,7 +233,6 @@ textarea {
   font-size: 1em;
   color: #333333;
 }
-
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
